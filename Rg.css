@@ -1,0 +1,72 @@
+*{
+	margin: 1px;
+	padding: 1px;
+}
+.about{
+	font-family: cursive;
+	color: purple;
+}
+.first{
+	height: 900px;
+	width: 900px;
+	margin: 50px auto;
+	background: red;
+	border: solid;
+	border-radius: 20px;
+	position: relative;
+}
+.first p{
+	text-align: center;
+	font-family: monospace;
+}
+.first p:hover {
+	font-family: fantasy;
+	color: royalblue;
+	text-decoration: underline;
+}
+.first video{
+	height: 480px;
+	width: 880px;
+}
+.sc img{
+	height: 300px;
+	width: 300px;
+}
+.sc{
+	height: 330px;
+	width: 300px;
+	background: purple;
+	animation: motion 7s linear infinite;
+}
+.sc p{
+	text-align: center;
+	text-decoration: underline;
+}
+.sc p:hover {
+color: green;
+}
+@keyframes motion {
+	100%{
+		transform: translatex(500px);
+	}
+}
+.d{
+	border: 3px dashed blue;
+	margin: 0px auto;
+	width: 150px;
+	height: 300px;
+	background: orange;
+	position: absolute;
+	left: -170px;
+	top: -5px;
+}
+.d2{
+	border: 3px dashed blue;
+	margin: 0px auto;
+	width: 150px;
+	height: 300px;
+	background: orange;
+	position: absolute;
+	left: -170px;
+	bottom: -2px;
+}
